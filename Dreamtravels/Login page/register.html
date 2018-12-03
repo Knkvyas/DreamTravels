@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Register</title>
+
+<link rel="shortcut icon" href="https://logopond.com/logos/211d9c927ce358e20581c624b74aaae1.png">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('bg.jpeg');">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+				<form action="http://localhost/Dreamtravels/Registration/Registration.php" method="post" name="myForm" onsubmit="return(validate());">
+					<span class="login100-form-title p-b-49">
+						DREAMTRAVELS
+						Register
+					</span>
+					<div class="wrap-input100 validate-input m-b-23">
+						<span class="label-input100">Name</span>
+						<input class="input100" type="text" name="name" placeholder="Type your name">
+						<span class="focus-input100" data-symbol="&#xf206;"></span>
+					</div>
+					<div class="wrap-input100 validate-input m-b-23">
+						<span class="label-input100">Username</span>
+						<input class="input100" type="text" name="email" placeholder="Type your email">
+						<span class="focus-input100" data-symbol="&#xf206;"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-23">
+						<span class="label-input100">UniqueID</span>
+						<input class="input100" type="text" name="id" placeholder="Type your UniqueID">
+						<span class="focus-input100" data-symbol="&#xf206;"></span>
+					</div>
+
+
+					<div class="wrap-input100 validate-input">
+						<span class="label-input100">Password</span>
+						<input class="input100" type="password" name="password" placeholder="Type your password">
+						<span class="focus-input100" data-symbol="&#xf190;"></span>
+					</div>
+					<div class="wrap-input100 validate-input">
+						<span class="label-input100">Re-type password</span>
+						<input class="input100" type="password" name="repassword" placeholder="Retype your password">
+						<span class="focus-input100" data-symbol="&#xf190;"></span>
+					</div>
+					<br>
+					
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn" onclick="formValidator()">
+								REGISTER
+							</button>
+						</div>
+					</div>
+				</form>
+				<br>
+				    <p class="label-input100">
+                        Have already an account ? <a href="http://localhost/Dreamtravels/Login%20page/Login.html">Login here</a>
+                    </p>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+
+
+</body>
+</html>
